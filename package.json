@@ -1,0 +1,40 @@
+{
+  "name": "page1",
+  "version": "1.0.0",
+  "description": "Initial setup of the project.  Created with Webpack, React, TypeScript, and Framer Motion.",
+  "main": "index.tsx",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "pro": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigdev937/page1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigdev937/page1/issues"
+  },
+  "homepage": "https://github.com/craigdev937/page1#readme",
+  "dependencies": {
+    "framer-motion": "^8.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
