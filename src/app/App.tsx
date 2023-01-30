@@ -4,9 +4,11 @@ import { Main } from "../routes/Main";
 
 export const App = (): JSX.Element => {
     return (
-        <React.Fragment>
-            <Main />
-        </React.Fragment>
+        <section className="app">
+            <React.Fragment>
+                <Main />
+            </React.Fragment>
+        </section>
     );
 };
 
