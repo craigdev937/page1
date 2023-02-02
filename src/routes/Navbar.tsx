@@ -53,7 +53,7 @@ export const Navbar =
             <motion.header
                 initial={{ y: "-100%" }}
                 animate={{ y: 0 }}
-                transition={{ duration: 2}}
+                transition={{ duration: .7}}
                 className={navbar ? 
                     "header header__scroll" : 
                     "header"}
